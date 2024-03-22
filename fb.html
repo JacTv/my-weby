@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB LogIn</title>
+<link rel="stylesheet" href="fbdec.css">
+
+</head>
+<body style="background-color: rgb(230, 229, 229); text-align: center;">
+<h1>facebook</h1>
+
+<!--Display Inline-Block is to maintain the DIV in center-->
+<div style="display: inline-block">
+    <br>
+<h3 style="margin: -1px;">Log in to Facebook</h3>
+<form>
+    <label for="email"><span></span> </label>
+    <input type="text" id="email" placeholder="Email address or phone number" required>
+    
+    <label for="password"><span></span> </label>
+    <input type="password" id="password" minlength="8" placeholder="Password" required>
+
+    <!--Value is to change the text in INPUT-->
+    <input class="login" type="submit" value="Log in">
+
+    <button>Forgotten account?</button>
+    <br>
+    
+    <hr class="hr1"> 
+    <span style="display: inline-block; margin: 10px; font-size: 13px;">or</span>
+    <hr class="hr1">
+
+    <button id="button2">Create new account</button>
+</form>
+
+
+</div>
+</body>
+</html>
