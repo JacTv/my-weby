@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(https://i.stack.imgur.com/vhoa0.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    width: 1349px;
+}
+.navbar{
+    width: auto;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70%;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.img{
+    width: 50px;
+    height: 48px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search1{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: rgb(253, 248, 248);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.search1:focus{
+    outline: none;
+}
+.search1::placeholder{
+    color: aliceblue;
+}
+.hometext{
+    box-shadow: 0px 1px 20px  rgb(224, 22, 22);
+    height: auto;
+    width: 370px;
+    background-color: rgba(18, 27, 104, 0.664);
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    color: #cccaca;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 20px;
+    float: left;
+    padding: 10px;
+    border: 2px solid;
+    box-sizing: border-box;
+
+}
+span{
+    color: orange; 
+    font-style: italic;
+}
+.goto{
+    background-color: aliceblue;
+    box-shadow: 0px 1px 20px pink;
+    height: 400px;
+    width: 470px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 70px;
+    float: left;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 50px;
+    color: orange;
+    padding-top: 20px;
+    border: 2px solid gray;
+}
+.contactlogo{
+    margin-top: 30px;
+    width: 150px;
+}
+.button2{
+    text-decoration: none;
+    background-color: rgb(245, 248, 248);
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.backuplink{
+    color: aliceblue;
+}
