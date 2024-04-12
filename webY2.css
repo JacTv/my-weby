@@ -1,0 +1,299 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: linear-gradient(180deg, rgb(9, 33, 53)30%, rgb(95, 109, 121)70%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+/*Header*/
+.main1{
+    height: 100px;
+    background-color: rgb(14, 37, 56);
+    position: relative;
+    top: -20px;
+    box-shadow: 0px 0px 10px rgb(2, 2, 2);
+}
+.main2{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 20px 40px;
+    filter: drop-shadow(2px 2px 2px black);
+
+    animation-name: slideleft;
+    animation-duration: 3s;
+}
+.mainImg{
+   height: 50px;
+   position: relative;
+   top: 10px;
+}
+nav{
+  position: relative;
+  top: -40px;
+
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-direction: reverse;
+}
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  
+}
+nav a{
+  color: aliceblue;
+  padding: 40px;
+  font-size: 22px;
+  text-align: right;
+
+  position: relative;
+  left: 450px;
+}
+nav a:hover{
+  color: rgb(10, 10, 10);
+  text-shadow: 0px 0px 10px white;
+}
+nav li{
+  float: left;
+}
+/*End header*/
+
+/*Main*/
+.maintext{
+    overflow: hidden;
+    display: block;
+    color: aliceblue;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+
+    animation-name: colorChange;
+    animation-duration: 5s;
+}
+.maintext:hover{
+    color: rgb(128, 128, 131);
+}
+.textD1{
+   color: rgb(14, 37, 56);
+   background-color: rgb(252, 251, 251);
+   border-radius: 40px;
+
+   animation-name: fade;
+   animation-duration: 5s;
+   animation-direction: reverse;
+}
+.textD2{
+  margin-right: 10px;
+  padding: 10px;
+   color: rgb(14, 37, 56);
+   background-color: rgb(252, 251, 251);
+   border-radius: 40px;
+
+   animation-name: fade;
+   animation-duration: 5s;
+   animation-direction: reverse;
+}
+.mainbtn{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    margin-top: 100px;
+
+    animation-name: fade, slidedown;
+    animation-duration: 5s;
+    animation-direction: reverse;
+}
+.mainbtn:hover, .mainbtn2:hover{
+    box-shadow: 0px 0px 20px rgb(5, 5, 5);
+}
+.mainbtn2{
+    cursor: pointer;
+    background-color: rgb(9, 33, 53);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    margin-left: 5px;
+
+    animation-name: fade, slidedown;
+    animation-duration: 5s;
+    animation-direction: reverse;
+}
+.img1{
+  height: 100px;
+  position: absolute;
+
+  animation-name: slideright, fade;
+  animation-duration: 1s;
+  animation-direction: alternate-reverse;
+}
+/*Main end*/
+
+/*Home*/
+.char1T{
+  font-size: 40px;
+  color: rgb(111, 197, 247);
+  text-align: left;
+
+  animation-name: shrink;
+  animation-duration: 1s;
+  animation-direction: reverse;
+
+}
+.char2T{
+  font-size: 20px;
+  color: white;
+
+  text-align: left;
+}
+.char3T{
+border-radius: 20px;
+border: none;
+margin: 50px;
+width: 300px;
+height: 50px;
+cursor: pointer;
+
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  color: black;
+
+  animation-name: slideleft;
+  animation-duration: 1s;
+  
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.char1P, .char2P{
+  width: 45%;
+}
+.char1P{
+  border-radius: 20px;
+}
+.char2P{
+  background-color: rgb(192, 187, 187);
+  border-radius: 20px;
+  
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-direction: reverse;
+}
+.char3P{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+/*Home End*/
+
+/*Food Page*/
+.container2{
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fbox1, .fbox2{
+  width: 47%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.fbox1{
+  height: 400px;
+  background-color: none;
+}
+.fbox1 h1{
+  text-align: left;
+  color: rgb(223, 240, 147);
+}
+.fbox1 p{
+  text-align: left;
+  color: rgb(215, 216, 211);
+  font-size: larger;
+}
+.fbox2{
+  height: 400px;
+  background-color: rgb(246, 248, 248);
+  overflow: hidden;
+  border: none;
+  border-radius: 0px 100px;
+}
+.fbox2 img{
+  height: 100%;
+  width: 100%;
+}
+.fbox2 h2{
+  color: rgb(9, 33, 53);
+  text-transform: uppercase;
+}
+.fbox3{
+  border-radius: 20px;
+  border: none;
+  margin-left: 150px;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  color: black;
+}
+@keyframes slideleft{
+    from{transform: translateX(300%)}
+ }
+ @keyframes slideright{
+   to{transform: translateX(300%);}
+ }
+ @keyframes slideup{
+   from{transform: translateY(100%);}
+ }
+ @keyframes slidedown{
+   to{transform: translateY(100%);}
+ }
+ @keyframes rotate{
+   100%{transform: rotateZ(360deg);}
+ }
+ @keyframes grow{
+   100%{transform: scale(2, 2);}
+ }
+ @keyframes shrink{
+   100%{transform: scale(0.1, 0.1);}
+ }
+ @keyframes fade{
+   100%{opacity: 0}
+ }
+ @keyframes colorChange{
+    0%{color: rgb(250, 247, 247);}
+   20%{color: rgb(14, 13, 13);}
+   40%{color: rgb(255, 255, 255)}
+   60%{color: rgb(0, 0, 0)}
+   80%{color: rgb(255, 255, 255)}
+   100%{color: rgb(250, 247, 247)}
+ }
+ @keyframes glow{
+   50%{box-shadow: 0px 0px 40px rgb(194, 247, 2)}
+ }
+
+
+
+
+
+
