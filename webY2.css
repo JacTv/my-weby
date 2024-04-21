@@ -58,6 +58,53 @@ nav a{
   position: relative;
   left: 450px;
 }
+
+@media (max-width:680px){
+  nav a{
+    color: aliceblue;
+    padding: 40px;
+    font-size: 22px;
+  
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 30px
+  }
+}
+
+@media (min-width:681px){
+  nav a{
+    color: aliceblue;
+    padding: 40px;
+    font-size: 22px;
+    text-align: right;
+  
+    position: relative;
+    left: 240px;
+  }
+}
+@media (min-width:768px){
+  nav a{
+    color: aliceblue;
+    padding: 40px;
+    font-size: 22px;
+    text-align: right;
+  
+    position: relative;
+    left: 310px;
+  }
+}
+@media (min-width:992px){
+  nav a{
+    color: aliceblue;
+    padding: 40px;
+    font-size: 22px;
+    text-align: right;
+  
+    position: relative;
+    left: 450px;
+  }
+}
 nav a:hover{
   color: rgb(10, 10, 10);
   text-shadow: 0px 0px 10px white;
@@ -85,7 +132,8 @@ nav li{
 .textD1{
    color: rgb(14, 37, 56);
    background-color: rgb(252, 251, 251);
-   border-radius: 40px;
+   margin-top: 30px;
+   padding: 10px;
 
    animation-name: fade;
    animation-duration: 5s;
@@ -136,6 +184,7 @@ nav li{
 .img1{
   height: 100px;
   position: absolute;
+  margin: -10px;
 
   animation-name: slideright, fade;
   animation-duration: 1s;
@@ -160,11 +209,19 @@ nav li{
 
   text-align: left;
 }
+
+@media (max-width: 800px){
+  .char2T button{
+    position: relative;
+    left: -20px;
+    
+  }
+}
 .char3T{
 border-radius: 20px;
 border: none;
-margin: 50px;
-width: 300px;
+margin: 20px;
+width: 250px;
 height: 50px;
 cursor: pointer;
 
@@ -172,10 +229,6 @@ cursor: pointer;
   font-weight: bold;
   font-family: arial;
   color: black;
-
-  animation-name: slideleft;
-  animation-duration: 1s;
-  
 }
 .container1{
   display: flex;
@@ -205,14 +258,14 @@ cursor: pointer;
 
 /*Food Page*/
 .container2{
-  margin: 50px;
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 .fbox1, .fbox2{
-  width: 47%;
+  width: 100%;
   float: left;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-left: 20px;
 }
 .fbox1{
@@ -292,8 +345,67 @@ cursor: pointer;
    50%{box-shadow: 0px 0px 40px rgb(194, 247, 2)}
  }
 
+ 
+ @media (max-width: 600px){
+  .fbox1{
+    width: 45%;
+    padding: 10px;
+    border: 5px solid white;
+    overflow: scroll;
+  }
+}@media (min-width: 601px){
+  .fbox1{
+    width: 45%;
+    padding: 10px;
+    border: 5px solid white;
+    overflow: scroll;
+  }
+}
+@media (min-width: 768px){
+  .fbox1{
+    width: 45%;
+    padding: 10px;
+    border: 5px solid white;
+    overflow: scroll;
+    
+  }
 
-
-
-
-
+}@media (min-width: 992px){
+  .fbox1{
+    width: 45%;
+    padding: 10px;
+    border: none;
+    overflow: visible;
+  }
+}
+@media (min-width: 1200px){
+  .fbox1{
+    width: 45%;
+    padding: 10px;
+    border: none;
+    overflow: visible;
+  }
+}
+@media (max-width: 600px){
+  .fbox2{
+    width: 45%;
+  }
+}@media (min-width: 601px){
+  .fbox2{
+    width: 45%;
+  }
+}
+@media (min-width: 768px){
+  .fbox2{
+    width: 45%;
+  }
+}@media (min-width: 992px){
+  .fbox2{
+    width: 45%;
+  }
+}
+@media (min-width: 1200px){
+  .fbox2{
+    width: 45%;
+  }
+}
